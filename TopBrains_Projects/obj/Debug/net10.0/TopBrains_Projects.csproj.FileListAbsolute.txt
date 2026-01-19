@@ -1,0 +1,14 @@
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\bin\Debug\net10.0\TopBrains_Projects.exe
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\bin\Debug\net10.0\TopBrains_Projects.deps.json
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\bin\Debug\net10.0\TopBrains_Projects.runtimeconfig.json
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\bin\Debug\net10.0\TopBrains_Projects.dll
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\bin\Debug\net10.0\TopBrains_Projects.pdb
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.AssemblyInfoInputs.cache
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.AssemblyInfo.cs
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.csproj.CoreCompileInputs.cache
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.dll
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\refint\TopBrains_Projects.dll
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.pdb
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.genruntimeconfig.cache
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\ref\TopBrains_Projects.dll
