@@ -12,3 +12,4 @@ C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\refint\Top
 C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.pdb
 C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.genruntimeconfig.cache
 C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\ref\TopBrains_Projects.dll
+C:\Users\harsh\Desktop\TopBrains\TopBrains_Projects\obj\Debug\net10.0\TopBrains_Projects.sourcelink.json
