@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniverSity Course Registration System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f004c19b5bc39c86d0a3752c2feca625451d37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6208b75916de364ec3589d616a78ffe9d86c315b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniverSity Course Registration System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniverSity Course Registration System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

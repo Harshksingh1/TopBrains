@@ -1,88 +1,88 @@
-using System;
-using NUnit.Framework;
+// using System;
+// using NUnit.Framework;
 
 
-public class Program
-{
-    public decimal Balance { get; private set; }
-
-    
-    public Program(decimal initialBalance)
-    {
-        Balance = initialBalance;
-    }
+// public class Program
+// {
+//     public decimal Balance { get; private set; }
 
     
-    public void Deposit(decimal amount)
-    {
-        if (amount < 0)
-        {
-            throw new Exception("Deposit amount cannot be negative");
-        }
-
-        Balance += amount;
-    }
+//     public Program(decimal initialBalance)
+//     {
+//         Balance = initialBalance;
+//     }
 
     
-    public void Withdraw(decimal amount)
-    {
-        if (amount > Balance)
-        {
-            throw new Exception("Insufficient funds.");
-        }
+//     public void Deposit(decimal amount)
+//     {
+//         if (amount < 0)
+//         {
+//             throw new Exception("Deposit amount cannot be negative");
+//         }
 
-        Balance -= amount;
-    }
+//         Balance += amount;
+//     }
 
     
-    public static void Main(string[] args)
-    {
+//     public void Withdraw(decimal amount)
+//     {
+//         if (amount > Balance)
+//         {
+//             throw new Exception("Insufficient funds.");
+//         }
+
+//         Balance -= amount;
+//     }
+
+    
+//     public static void Main(string[] args)
+//     {
         
         
-    }
-}
+//     }
+// }
 
-// NUnit Test Class
-[TestFixture]
-public class UnitTest
-{
-    [Test]
-    public void Test_Deposit_ValidAmount()
-    {
-        Program account = new Program(1000);
-        account.Deposit(500);
+// // NUnit Test Class
+// [TestFixture]
+// public class UnitTest
+// {
+//     [Test]
+//     public void Test_Deposit_ValidAmount()
+//     {
+//         Program account = new Program(1000);
+//         account.Deposit(500);
 
-        Assert.AreEqual(1500, account.Balance);
-    }
+//         Assert.AreEqual(1500, account.Balance);
+//     }
 
-    [Test]
-    public void Test_Deposit_NegativeAmount()
-    {
-        Program account = new Program(1000);
+//     [Test]
+//     public void Test_Deposit_NegativeAmount()
+//     {
+//         Program account = new Program(1000);
 
-        Assert.AreEqual(
-            "Deposit amount cannot be negative",
-            Assert.Throws<Exception>(() => account.Deposit(-200)).Message
-        );
-    }
+//         Assert.AreEqual(
+//             "Deposit amount cannot be negative",
+//             Assert.Throws<Exception>(() => account.Deposit(-200)).Message
+//         );
+//     }
 
-    [Test]
-    public void Test_Withdraw_ValidAmount()
-    {
-        Program account = new Program(1000);
-        account.Withdraw(400);
+//     [Test]
+//     public void Test_Withdraw_ValidAmount()
+//     {
+//         Program account = new Program(1000);
+//         account.Withdraw(400);
 
-        Assert.AreEqual(600, account.Balance);
-    }
+//         Assert.AreEqual(600, account.Balance);
+//     }
 
-    [Test]
-    public void Test_Withdraw_InsufficientFunds()
-    {
-        Program account = new Program(500);
+//     [Test]
+//     public void Test_Withdraw_InsufficientFunds()
+//     {
+//         Program account = new Program(500);
 
-        Assert.AreEqual(
-            "Insufficient funds.",
-            Assert.Throws<Exception>(() => account.Withdraw(800)).Message
-        );
-    }
-}
+//         Assert.AreEqual(
+//             "Insufficient funds.",
+//             Assert.Throws<Exception>(() => account.Withdraw(800)).Message
+//         );
+//     }
+// }
